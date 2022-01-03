@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Raleway', Lateef ;
+}
+
+body{
+    background:rgb(246, 243, 243);
+}
+main{
+    padding:3em 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    width:90%;
+}
+
+/**  fonts  **/
+h1{
+    font-size:1.7em;
+    margin-bottom:1.8em;
+}
+.p{
+    margin-bottom:16px;
+}
+
+.section-primary ul li{
+    margin-bottom:6px;
+}
+
+section ul {
+    margin-bottom:7px;
+}
+
+/*** SECTION PRIMARY  ***/
+
+.section-primary{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:1em 3em;
+}
+.section-primary .container-info{
+    width:55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-primary .container-img{
+    width:30%;
+}
+.section-primary .container-img img{
+    width:100%;
+}
+
+/**  SECTION SECONDARY  **/
+
+.section-secondary{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:1.3em 3em;
+    margin:3em 0;
+}
+.section-secondary .container-info{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+}
+.section-secondary .container-img{
+    width:50%;
+}
+.section-secondary .container-img img{
+    width:100%;
+}
+
+/**  SECION THIRD  **/
+.section-third{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-third strong{
+    font-size: 1.5em;
+}
+.section-third div{
+    height:18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-third ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section-third ul li{
+    width:25%;
+}
